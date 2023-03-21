@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _abs - checks for absolute value
@@ -9,7 +9,7 @@
 int _abs(int a)
 {
 	if (a < 0)
-		a = -(a); |
+		a = -(a);
 	else if (a >= 0)
 		a = a;
 	return (a);
